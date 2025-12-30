@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Payment Summary</h2>
+
+    <div style="background:#eef2f7; padding:15px; border-radius:8px; margin-bottom:20px;">
+        <p>Registration Fee: <strong>Rs. 500</strong></p>
+    </div>
+
+    <form>
+        <label>Select Payment Method:</label>
+        <select>
+            <option>UPI (Google Pay / PhonePe)</option>
+            <option>Credit / Debit Card</option>
+            <option>Net Banking</option>
+            <option>PayPal</option>
+        </select>
+
+        <button type="button" class="btn-payment"
+            onclick="alert('Success! Registration Confirmed.')">
+            Complete Payment
+        </button>
+    </form>
+
+    <div class="payment-icons">
+        <img src="https://cdn-icons-png.flaticon.com/512/196/196070.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/196/196066.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/UPI-Logo-vector.svg">
+    </div>
+</div>
+
+<div class="back-home-container">
+    <a href="index.html" class="btn-secondary">← Back to Home</a>
+</div>
+
+</body>
+</html>
